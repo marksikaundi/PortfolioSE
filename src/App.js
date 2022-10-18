@@ -1,7 +1,9 @@
+import Navbar from "./Components/NavBar/Navbar";
+import './App.css'
 function App() {
   return (
     <div className="App">
-      Subscribe ZainKeepsCode
+      <Navbar />
     </div>
   );
 }
