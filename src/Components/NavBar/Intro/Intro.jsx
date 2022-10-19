@@ -6,8 +6,8 @@ import Instagram from "../Intro/img/instagram.png"
 import Vector1 from "../Intro/img/Vector1.png"
 import Vector2 from "../Intro/img/Vector2.png"
 import boy from "../Intro/img/boy.png"
-import thumbup from "../Intro/img/thumbup.png"
-import glassesimoji from "../Intro/img/glassesimoji.png"
+// import thumbup from "../Intro/img/thumbup.png"
+// import glassesimoji from "../Intro/img/glassesimoji.png"
 import Crown from "../Intro/img/crown.png"
 import FloatingDiv from '../../FloatingDiv/FloatingDiv'
 
@@ -33,8 +33,8 @@ const Intro = () => {
             <img src={Vector1} alt="" />
             <img src={Vector2} alt="" />
             <img src={boy} alt="" />
-            <div>
-                <FloatingDiv/>
+            <div style={{top: '-4%', left: '68%'}}>
+                <FloatingDiv img={Crown}/>
             </div>
         </div>
     </div>

@@ -1,9 +1,10 @@
 import React from 'react'
+import "./FloatingDiv.css"
 
-function FloatingDiv() {
+const FloatingDiv = ({image}) => {
   return (
         <div className="floatingdiv">
-            <img src="" alt="" />
+            <img src={image} alt="" />
             <span>
                 Web 
                 <br />
