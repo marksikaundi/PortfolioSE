@@ -1,8 +1,15 @@
 import React from 'react'
 import './Intro.css'
-import Github from "./icon/github.png"
-import Linkedin from "./icon/linkedin.png"
-import Instagram from "./icon/instagram.png"
+import Github from "../Intro/img/github.png"
+import Linkedin from "../Intro/img/linkedin.png"
+import Instagram from "../Intro/img/instagram.png"
+import Vector1 from "../Intro/img/Vector1.png"
+import Vector2 from "../Intro/img/Vector2.png"
+import boy from "../Intro/img/boy.png"
+import thumbup from "../Intro/img/thumbup.png"
+import glassesimoji from "../Intro/img/glassesimoji.png"
+import Crown from "../Intro/img/crown.png"
+import FloatingDiv from '../../FloatingDiv/FloatingDiv'
 
 const Intro = () => {
   return (
@@ -23,7 +30,12 @@ const Intro = () => {
         </div>
         {/* right side */}
         <div className="i-right">
-            I am right side
+            <img src={Vector1} alt="" />
+            <img src={Vector2} alt="" />
+            <img src={boy} alt="" />
+            <div>
+                <FloatingDiv/>
+            </div>
         </div>
     </div>
     )
